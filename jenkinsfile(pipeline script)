@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-username/ecommerce-ci-cd.git'
+                git branch: 'main', url: 'https://github.com/Priyagowda14/e-commerce-ci-cd.git'
             }
         }
         stage('Build Docker Image') {
